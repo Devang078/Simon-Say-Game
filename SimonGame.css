@@ -11,6 +11,7 @@ body{
     border: 2px solid black;
     border-radius: 20%;
     margin:13px;
+    cursor: pointer;
 }
 .red{
     background-color: #ea4235;
@@ -29,6 +30,17 @@ body{
 }
 .userflash{
     background-color:white;
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition :1.2s ;
+}
+
+
+@media screen and (max-width:767px){
+    .btn{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 20%;
+        margin:10px;
+    }
 }
